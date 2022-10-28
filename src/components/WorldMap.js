@@ -6,7 +6,7 @@ const WorldMap = ({center, zoom}) => {
     <div className='map'>
         {/* using the google map React package to show google maps and using the api  */}
       <GoogleMapReact
-        bootstrapURLKeys={{ key:''}}
+        bootstrapURLKeys={{ key:'AIzaSyBytB_b5jhS4i3vRYnbHSBHfqyEpLclDdE'}}
         defaultCenter={center}
         defaultZoom={zoom}  
       >
