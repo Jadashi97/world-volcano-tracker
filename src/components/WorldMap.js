@@ -1,4 +1,4 @@
-import useState from 'react';
+import {useState} from 'react';
 import GoogleMapReact from 'google-map-react';
 import LocationMaker from './LocationMaker';
 import LocationInfoBox from './LocationInfoBox';
