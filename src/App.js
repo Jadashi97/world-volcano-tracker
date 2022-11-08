@@ -4,6 +4,7 @@ import WorldMap from './components/WorldMap';
 import Header from './components/Header';
 import Loader from './components/Loader';
 
+
 function App() {
   const [eventData, setEventData] = useState([]);
 
@@ -23,11 +24,9 @@ function App() {
 
   }, [])
 
-
   return (
     <div className="header">
       <Header/>
-
       {!loading ? <WorldMap eventData={eventData} /> : <Loader/>}
     </div>
   );
